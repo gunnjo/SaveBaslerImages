@@ -1,2 +1,4 @@
 CmakeCache.txt
-CmakeFiles
+CMakeFiles
+Release
+Debug
