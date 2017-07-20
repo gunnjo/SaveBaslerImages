@@ -1,0 +1,3 @@
+// the configured options and settings for Tutorial
+#define PylonImage_VERSION_MAJOR @PylonImage_VERSION_MAJOR@
+#define PylonImage_VERSION_MINOR @PylonImage_VERSION_MINOR@

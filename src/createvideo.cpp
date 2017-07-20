@@ -13,6 +13,8 @@
 
 #include <iostream>
 #include <fstream>
+
+#include <sys/stat.h>
 using namespace std;
 
 // Include files to use the PYLON API.
