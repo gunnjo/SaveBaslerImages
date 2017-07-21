@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.5)
+cmake_minimum_required (VERSION 2.8)
 project (CreateVideo)
 # The version number.
 set (CreateVideo_VERSION_MAJOR 1)
