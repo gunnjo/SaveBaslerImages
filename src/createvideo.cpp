@@ -145,7 +145,7 @@ int main(int argc, char* argv[]) {
     string file = "video.avi";
     int c;
     int i = 0;
-    bool writeFrames = false;
+    bool writeFrames = true;
     bool rawFrames = false;
     bool savePylon = false;
     opterr = 0;
@@ -157,7 +157,7 @@ int main(int argc, char* argv[]) {
             file = optarg;
             break;
         case 'u':
-            writeFrames = true;
+            writeFrames = false;
             break;
         case 'p':
             savePylon = true;
